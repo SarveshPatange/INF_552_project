@@ -5,7 +5,7 @@ Theano: http://deeplearning.net/software/theano/
 NumPy, SciPy, Pandas, nolearn
 
 Installed using pip. 
-sudo pip install <packagename>
+sudo pip install "packagename"
 
 GPU specific operations: 
 Install CUDA: https://developer.nvidia.com/cuda-toolkit
@@ -13,9 +13,8 @@ Install cuDNN https://developer.nvidia.com/cudnn
 
 Make Theano use GPU: http://deeplearning.net/software/theano/library/config.html
 
-
-The zip CNN.zip contains python scripts for the neural network. 
-The keypoints_detector_trainer.py builds the CNN and starts training on the training file provided. On a GPU the training for 1000 epochs will take about 30 minutes. 
+The keypoints_detector_trainer.py builds the CNN and starts training on the training file provided. 
+On a GPU the training for 1000 epochs will take about 30 minutes. 
 
 The script will dump the weights and parameters for the NN to external files 
 
